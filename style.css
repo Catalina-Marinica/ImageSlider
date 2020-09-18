@@ -1,0 +1,46 @@
+body{
+    font-family: 'Courgette',serif;
+}
+
+.js-slideImage{
+    display: none;
+}
+
+.prev, .next{
+    color: lightgrey;
+    float: left;
+    font-size: 2rem;
+    margin: auto;
+    padding: 10rem 0;
+}
+
+.prev:hover, .next:hover{
+    color: black;
+    transition: 1.5s;
+}
+
+.prev{
+    margin-left: 15rem;
+}
+
+.next{
+    float: right;
+    margin-right: 15rem;
+}
+
+.my-fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to { opacity: 1;}
+} 
